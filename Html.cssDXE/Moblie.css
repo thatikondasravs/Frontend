@@ -1,0 +1,82 @@
+@media screen and (max-width: 1399px) {
+
+}
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /***Home Banner Starts***/
+    .home {
+        height: auto;
+    }
+    .box::before {
+        width: 100%;
+        margin: 0px;
+        border-top: 2px solid rgb(141, 37, 40);
+        border-left: 2px solid rgb(141, 37, 40);
+        border-right: 2px solid rgb(141, 37, 40);
+        content: "";
+        position: absolute;
+        height: 10px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+    .warrenty {
+        padding-left: 80px;
+        color: black;
+        font-size: 40px;
+    }
+    .quote {
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        margin: 10px 0px;
+        color: rgb(141, 37, 40);
+        z-index: 9;
+        margin-left: 50px;
+    }
+    .quote::before {
+    background: transparent;
+    width: 105.82%;
+    margin: 0px;
+    border-top: -3px solid rgb(141, 37, 40);
+    border-left: 2px solid rgb(141, 37, 40);
+    border-right: 2px solid rgb(141, 37, 40);
+    content: "";
+    position: absolute;
+    height: 10.58px;
+    left: 24px;
+    right: 0px;
+    top: 0px;
+    }
+    
+    .quote::after {
+    background: transparent;
+    width: 105.82%;
+    margin: 0px;
+    border-bottom: 2px solid rgb(174, 153, 49);
+    border-left: 2px solid rgb(174, 153, 49);
+    border-right: 2px solid rgb(174, 153, 49);
+    content: "";
+    position: absolute;
+    height: 10.58px;
+    left: 24px;
+    right: 0px;
+    top: 24px;
+    }
+    .box1 {
+        width: 63.8%;
+        height: 34.11px;
+        border: 8px solid goldenrod;
+        border-top: white;
+        margin-top: 5px;
+    }
+    
+}
+
+    
+    
